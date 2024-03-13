@@ -40,7 +40,7 @@ struct DetailView: View {
             }
             Section(header: Text("Attendees")) {
                 ForEach(scrum.attendees) { attendee in
-                    Label(attendee.name, systemImage: "person.fill")
+                    Label(attendee.name, systemImage: "person")
                 }
             }
         }
